@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+}
+
+.logo{
+  background-color: #25445b;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+img{
+  max-width: auto;
+  height: auto;
+}
+
+ul {
+list-style-type: none;
+text-align: center;
+margin: 0;
+padding: 0px 14px;
+overflow: hidden;
+background-color: #2974a4
+}
+
+li {
+display: inline-block;
+}
+
+li a {
+display: block;
+color: white;
+padding: 14px 45px;
+text-decoration: none;
+}
+
+li a:hover {
+  background-color: #25445b;
+}
