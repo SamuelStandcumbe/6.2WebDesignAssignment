@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="format.css">
 
 <style>
-    s
-* {box-sizing:border-box}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -77,20 +74,16 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #cab0b0;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 3.5s;
 }
 
 @keyframes fade {
@@ -98,16 +91,40 @@
   to {opacity: 1}
 }
 
+/* Turning the image into a circle an setting it to the left */
+
+/*------------------------------------------------------------------------------------------------------------------------ */
+#introimg {
+  clip-path: circle(45%);
+  padding: 5px
+}
+
+/* setting the text to the right */
+.intro{
+font-size: 25px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+max-width: 50%;
+}
+
+.introtxt{
+  padding: 5px;
+
+}
+
+/*display flex*/ 
+
 </style>
 
     </head>
 
     <body>
-  
+        <!-- The logo -->
         <div class="logo">
            <img src="logo.png" class="img-fluid" alt="Jack's Minis Logo">
         </div>
-          
+
+          <!-- The links for the navbar -->
         <ul class="navbar">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="homepage.html" style="color: white;"> Home </a>
@@ -198,7 +215,20 @@ function showSlides(n) {
 <hr>
 <br> <br>
 
-<img src="jack.jpg" id="intro">
+
+
+
+<div class="intro">
+  <img src="jack.jpg" id="introimg">
+  <p class="introtxt">Jack Jetson has always had a deep love for classic cars, and there's one in particular that he can't get enough of – the iconic Mini. What started as a personal hobby has 
+  now evolved into a thriving project, with Jack dedicated to restoring and rejuvenating these timeless machines. Operating out of his spacious home garage, Jack not only 
+  brings new life to these beloved cars but also offers a range of services, including expert re-sprays in his dedicated re-spray shop. With several restoration projects 
+  underway and an archive of completed work, Jack’s ambition is to one day turn his passion into a full-time business. In the meantime, he’s keen to share his work and insights 
+  with a wider audience. Alongside his restoration work, Jack is an active organiser of local classic car rallies, where car enthusiasts come together to show off their 
+  restored vehicles, share stories, and enjoy the camaraderie of like-minded individuals. Whether you’re a local looking to join in on the next rally, or someone from further 
+  afield wanting to learn more about these events, you’ll find all the information you need, from dates and routes to registration details right here!
+  </p>
+</div>
 
     </body>
 </html>
