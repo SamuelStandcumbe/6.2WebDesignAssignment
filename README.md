@@ -1,1 +1,1 @@
-# 6.2WebDesignAssignment
+# Jack's Minis
