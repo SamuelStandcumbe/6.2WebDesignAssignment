@@ -2,7 +2,7 @@ body{
     overflow-y: scroll;
 }
 
-#ttlhr{
+.ttlhr{
     max-width: 75%;
     margin: 0 auto;
 }
@@ -72,9 +72,7 @@ body{
     transform: rotate(45deg)
 }
 
-
-
-#break{
+.break{
     max-width: 95%;
     margin: 0 auto;
 }
