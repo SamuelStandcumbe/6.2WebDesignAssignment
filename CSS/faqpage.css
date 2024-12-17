@@ -102,12 +102,12 @@ body{
   /* Styling the  image */  
       .newsletterimg {
         clip-path: circle(45%);
-        padding: 5px;
+        padding: 50px;
         max-width: 90%;
 }
 
   /* Aligning the text cenrally */
       .newslettertxt{
-        padding: 100px;
+        padding: 50px;
         text-align: center;
 }
