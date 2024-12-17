@@ -63,6 +63,6 @@ body{
     max-height: 1200px;
 }
 
-.section_faq .question.open > .icon (
+.section_faq .question.open > .icon {
     transform: rotate(45deg)
-)
+}
