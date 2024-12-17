@@ -121,7 +121,7 @@
   }
 
 /* Styling the contact details */  
-  .inner_footer .footer_third span{
+  .inner_footer .footer_third .footer_third_span{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
