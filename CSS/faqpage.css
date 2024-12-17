@@ -83,6 +83,12 @@ body{
 
 .newsletterttl{
     padding: 5px;
+    text-align: center;
+}
+
+.newsletterhr{
+    max-width: 75%;
+    margin: 0 auto;
 }
 
 .newsletter{
