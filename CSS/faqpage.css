@@ -80,3 +80,16 @@ body{
     max-width: 95%;
     margin: 0 auto;
 }
+
+.newsletterttl{
+    padding: 5px;
+    float: left;
+}
+
+.newsletter{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
