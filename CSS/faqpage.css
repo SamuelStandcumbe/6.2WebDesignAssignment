@@ -96,5 +96,5 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
-    padding: 10px;
+    margin-left: 50px;
 }
