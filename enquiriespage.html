@@ -7,6 +7,7 @@
     </title>
 
     <link rel="stylesheet" href="/CSS/format.css">
+    <link rel="stylesheet" href="/CSS/enquiriespage.css">
 
     </head>
 
@@ -31,15 +32,46 @@
             </li>
           </ul>
 
+      <h1 class="title"> Enquiries </h1>
+        <hr>
+          
           <form>
-            <input type="text" id="fname" name="fname">
-              <label for="fname"> Please enter Your First Name. </label>
+            <fieldset>
+                <div class="fname">
+                  <label for="fname"> Please enter your first name: </label> 
+                  <input type="text" id="fname" name="fname" placeholder="John"> <br><br>
+                </div>
+              
+                <div class="sname">  
+                  <label for="sname"> Please enter your surname: </label> 
+                  <input type="text" id="sname" name="sname" placeholder="Smith"> <br><br>
+                </div>
 
-            <input type="text" id="sname" name="sname">
-              <label for="sname"> Please enter Your Surname. </label>
+                  <label for="email"> Please enter an email: </label>
+                  <input type="email" id="email" name="email" placeholder="example@gmail.com"> <br><br>
 
+                  <label for="pnumber"> Please enter your phone number: </label>
+                  <input type="tel" id="pnumber" name="pnumber" placeholder="07123456789"> <br><br>
 
+                  <label for="services"> Select a services you require: </label> <br>
+                <div class="services">
+                    <label fpr="restoration"> Restoration: </label>
+                    <input type="checkbox" id="restoration" name="restoration" value="restoration"> <br>
+                    <Label for="respray"> Respray: </Label>
+                    <input type="checkbox" id="respray" name="respray" value="respray"> <br>
+                </div> <br>
+
+                    <label for="car"> Enter type and year of the mini you wish to be worked on: </label>
+                    <input type="text" id="car" name="car" placeholder="Mini Cooper 2006"> <br> <br>
+
+                    <label for="message"> Enter a message: </label> <br>
+          
+                    <textarea id="message" name="message"> Please enter any Questions you have, about the services, the methods used by Jack, or any similar queries and you will get a response within 5 working days. </textarea>
+
+                    <button type="submit" id="submit"> Get a quote </button>
+            </fieldset>
           </form>
+        
 
           <div class="footer">
 
@@ -83,7 +115,6 @@
               </div>
       
             </div>
-      
-        </div>
+    
     </body>
 </html>

@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+}
+
+hr{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+fieldset{
+    margin: 25px auto;
+    padding: 10px;
+    max-width: 30%;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+textarea{
+    width: 600px;
+    height: 200px;
+}
