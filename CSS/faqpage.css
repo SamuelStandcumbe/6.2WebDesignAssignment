@@ -99,7 +99,9 @@ body{
 }
 
 .newsletterimg{
-    align-items: center;
+    float: right;
+    max-width: auto;
+    max-height: auto;
 }
 
 .newslettertxt{
