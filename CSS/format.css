@@ -4,11 +4,8 @@
   list-style: none;
   text-decoration: none ;
 }
-
-body{
-    margin: 0;
-  }
-  
+ 
+/* Making the header the correct color and allwing to to resize along with the browser */
   .header{
     background-color: #25445b;
     justify-content: center;
@@ -16,11 +13,13 @@ body{
     display: flex;
   }
 
+/* Making the image responsive */
   img{
     max-width: auto;
     height: auto;
   }
   
+/* Styling the NavBar */
   ul {
   list-style-type: none;
   text-align: center;
@@ -30,10 +29,12 @@ body{
   background-color: #2974a4
   }
   
+/* Making the nav bar horizontal */  
   li {
   display: inline-block;
   }
-  
+
+/* Styling the links */ 
   li a {
   display: block;
   color: white;
@@ -41,11 +42,12 @@ body{
   text-decoration: none;
   }
 
-
+/* Making the links change color on hover */  
   li a:hover {
     background-color: #25445b;
   }
 
+  
   .footer{
     width: 100vw;
     display: block;
