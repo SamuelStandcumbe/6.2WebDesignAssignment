@@ -94,17 +94,20 @@ body{
 .newsletter{
     font-size: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
+    padding: 10px;
+}
+    
+  /* Styling the image */  
+      .newsletterimg {
+        clip-path: circle(45%);
+        padding: 5px;
+        max-width: 90%;
 }
 
-.newsletterimg{
-    float: right;
-    max-width: auto;
-    max-height: auto;
-}
-
-.newslettertxt{
-    text-align: center;
-    padding: 15px;
+  /* Aligning the text cenrally */
+      .newslettertxt{
+        padding: 50px;
+        text-align: center;
 }
