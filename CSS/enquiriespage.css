@@ -50,12 +50,13 @@ textarea {
     align-items: center;
 }
 
-/* styles the text
+/* styles the text */
 .locationtxt {
     padding: 50px;
     text-align: center;
 }
   
+/* Styles the image */
 #locationimg {
     padding: 50px;
     max-width: 90%;
