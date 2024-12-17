@@ -54,15 +54,11 @@ body{
     transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
 }
 
-.section_faq .answer span{
+.section_faq .answer{
     display: inline-block;
     padding: 1.2rem;
 }
 
 .section_faq .question.open + .answer{
     max-height: 1200px;
-}
-
-.section_faq .question.open > .icon {
-    transform: rotate(45deg)
 }
