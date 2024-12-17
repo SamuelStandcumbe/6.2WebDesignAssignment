@@ -66,3 +66,7 @@ body{
 .section_faq .question.open > .icon {
     transform: rotate(45deg)
 }
+
+.icon{
+color: black;
+}
