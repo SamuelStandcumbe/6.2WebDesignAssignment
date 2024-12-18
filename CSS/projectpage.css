@@ -1,0 +1,121 @@
+img{
+    max-width: 100%;
+}
+
+.keytitle{
+    text-align: center;
+}
+
+.keyhr{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.currenttitle{
+    text-align: center;
+}
+
+.currenthr{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* Aligning and styling the location div and setting it into a grid */  
+.currentprojects1{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    padding: 10px;
+    }
+    
+  /* Styling the location image */  
+      .currentimg1 {
+        padding: 10px;
+        max-width: 90%;
+      }
+
+        /* Styling the location image */  
+        .currentimg2 {
+            padding: 10px;
+            max-width: 90%;
+          }
+    
+  /* Aligning the text cenrally */
+      .currenttxt1 {
+        text-align: center;
+        padding: 15px;
+     }
+
+       /* Aligning the text cenrally */
+       .currenttxt2 {
+        text-align: center;
+        padding: 15px;
+     }
+
+
+     /* Aligning and styling the location div and setting it into a grid */  
+.currentprojects2{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    padding: 10px;
+    }
+    
+  /* Styling the location image */  
+      .currentimg3 {
+        padding: 10px;
+        max-width: 90%;
+      }
+
+        /* Styling the location image */  
+        .currentimg4 {
+            padding: 10px;
+            max-width: 90%;
+          }
+    
+  /* Aligning the text cenrally */
+      .currenttxt3 {
+        text-align: center;
+        padding: 15px;
+     }
+
+       /* Aligning the text cenrally */
+       .currenttxt4 {
+        text-align: center;
+        padding: 15px;
+     }
+
+     /* Aligning and styling the location div and setting it into a grid */  
+.currentprojects3{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    padding: 10px;
+    }
+    
+  /* Styling the location image */  
+      .currentimg5 {
+        padding: 10px;
+        max-width: 90%;
+      }
+
+        /* Styling the location image */  
+        .currentimg6 {
+            padding: 10px;
+            max-width: 90%;
+          }
+    
+  /* Aligning the text cenrally */
+      .currenttxt5 {
+        text-align: center;
+        padding: 15px;
+     }
+
+       /* Aligning the text cenrally */
+       .currenttxt6 {
+        text-align: center;
+        padding: 15px;
+     }
