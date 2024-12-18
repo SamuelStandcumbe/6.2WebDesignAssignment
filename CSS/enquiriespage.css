@@ -1,16 +1,12 @@
-/* aligned the title centrally */
-.title {
+.title{
     text-align: center;
 }
-
-/* made the hr shorter and central */
-.ttlhr {
+.titlehr{
     max-width: 75%;
     margin: 0 auto;
 }
 
-/* Makes the form spaced out from the edge */
-fieldset {
+fieldset{
     margin: 25px auto;
     padding: 10px;
     max-width: 30%;
@@ -18,46 +14,45 @@ fieldset {
     background-color: lightblue;
 }
 
-/* increases the size of the textarea */
-textarea {
+textarea{
     width: 600px;
     height: 200px;
 }
 
-/* colors and sizes the submit button */
-#submit {
-    background-color: lightblue;
-    width: 50px;
-    height: 20px;
-}
-
-/* makes the break slightly smaller than the screen size */
-.break {
+.break{
     max-width: 95%;
     margin: 0 auto;
 }
 
-/* aligns centrally */
-.title{ 
+.location{
     text-align: center;
 }
 
-/* spaces the section out and creates grids */
-.location {
+.locationtitle{
+    text-align: center;
+}
+
+.locationhr{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* Aligning and styling the location div and setting it into a grid */  
+.location{
     font-size: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 80% 20%;
     align-items: center;
-}
-
-/* styles the text */
-.locationtxt {
-    padding: 50px;
-    text-align: center;
-}
-  
-/* Styles the image */
-#locationimg {
-    padding: 50px;
-    max-width: 90%;
-}
+    padding: 10px;
+    }
+    
+  /* Styling the location image */  
+      #locationimg {
+        padding: 5px;
+        max-width: 90%;
+      }
+    
+  /* Aligning the text cenrally */
+      .locationtxt{
+        text-align: center;
+     }
