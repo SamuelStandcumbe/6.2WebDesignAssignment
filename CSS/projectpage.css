@@ -1,5 +1,5 @@
 img{
-    max-width: 100%;
+    max-height: 75%;
 }
 
 .keytitle{
@@ -11,111 +11,173 @@ img{
     margin: 0 auto;
 }
 
-.currenttitle{
+.previoustitle{
     text-align: center;
 }
 
-.currenthr{
+.previoushr{
     max-width: 75%;
     margin: 0 auto;
 }
 
+
 /* Aligning and styling the location div and setting it into a grid */  
-.currentprojects1{
+.previousprojects1{
     font-size: 20px;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 40% 60%;
     align-items: center;
     padding: 10px;
     }
     
   /* Styling the location image */  
-      .currentimg1 {
+      .previousimg1 {
         padding: 10px;
         max-width: 90%;
       }
 
         /* Styling the location image */  
-        .currentimg2 {
+        .previousimg2 {
             padding: 10px;
             max-width: 90%;
           }
     
-  /* Aligning the text cenrally */
-      .currenttxt1 {
-        text-align: center;
+  /* Aligning the text left */
+      .previoustxt1 {
+        text-align: left;
         padding: 15px;
      }
 
-       /* Aligning the text cenrally */
-       .currenttxt2 {
-        text-align: center;
+       /* Aligning the text left */
+       .previoustxt2 {
+        text-align: left;
         padding: 15px;
      }
 
 
      /* Aligning and styling the location div and setting it into a grid */  
-.currentprojects2{
+.previousprojects2{
     font-size: 20px;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 40% 60%;
     align-items: center;
     padding: 10px;
     }
     
   /* Styling the location image */  
-      .currentimg3 {
+      .previousimg3 {
         padding: 10px;
         max-width: 90%;
       }
 
         /* Styling the location image */  
-        .currentimg4 {
+        .previousimg4 {
             padding: 10px;
             max-width: 90%;
           }
     
-  /* Aligning the text cenrally */
-      .currenttxt3 {
-        text-align: center;
+  /* Aligning the text left */
+      .previoustxt3 {
+        text-align: left;
         padding: 15px;
      }
 
-       /* Aligning the text cenrally */
-       .currenttxt4 {
-        text-align: center;
+       /* Aligning the text left */
+       .previoustxt4 {
+        text-align: left;
         padding: 15px;
      }
 
      /* Aligning and styling the location div and setting it into a grid */  
-.currentprojects3{
+.previousprojects3{
     font-size: 20px;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 40% 60%;
     align-items: center;
     padding: 10px;
     }
     
   /* Styling the location image */  
-      .currentimg5 {
+      .previousimg5 {
         padding: 10px;
         max-width: 90%;
       }
 
         /* Styling the location image */  
-        .currentimg6 {
+        .previousimg6 {
             padding: 10px;
             max-width: 90%;
           }
     
-  /* Aligning the text cenrally */
-      .currenttxt5 {
-        text-align: center;
+  /* Aligning the text left */
+      .previoustxt5 {
+        text-align: left;
         padding: 15px;
      }
 
-       /* Aligning the text cenrally */
-       .currenttxt6 {
-        text-align: center;
+       /* Aligning the text left */
+       .previoustxt6 {
+        text-align: left;
         padding: 15px;
      }
+
+     .break{
+      max-width: 95%;
+      margin: 0 auto;
+     }
+
+     .currentttitlw{
+      text-align: center;
+     }
+
+     .currentprojects{
+      padding: 5px;
+      text-align: center;
+  }
+  
+  .currenthr{
+      max-width: 75%;
+      margin: 0 auto;
+  }
+
+.current1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    }
+    
+    /* Styling the intro image */  
+      .currentimg1{
+        margin: 0 auto;
+        max-height: auto;
+        max-width: 100%;
+        align-items: center;
+      }
+    
+    /* Aligning the text cenrally */
+    .currenttxt1{
+      padding: 50px;
+      text-align: center;
+   }
+
+   .current2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    }
+    
+    /* Styling the intro image */  
+      .currentimg2{
+        margin: 0 auto;
+        max-height: auto;
+        max-width: 100%;
+        align-items: center;
+      }
+    
+    /* Aligning the text cenrally */
+    .currenttxt2{
+      padding: 50px;
+      text-align: center;
+   }
