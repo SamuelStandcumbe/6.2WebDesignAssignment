@@ -95,14 +95,13 @@ body{
 .newsletter{
     font-size: 20px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 40% 60%;
     align-items: center;
     padding: 10px;
 }
     
   /* Styling the  image */  
       .newsletterimg {
-        clip-path: circle(45%);
         padding: 50px;
         max-width: 90%;
 }
